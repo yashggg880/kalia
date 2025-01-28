@@ -341,7 +341,7 @@ def show_command_logs(message):
         except FileNotFoundError:
             response = "No command logs found."
     else:
-        response = "You Are Not Authorized To Use This Command 😡 https://t.me/+vEq_y0x5tKNhMzFl
+        response = "You Are Not Authorized To Use This Command 😡 https://t.me/+vEq_y0x5tKNhMzFl"
 
     bot.reply_to(message, response)
 
